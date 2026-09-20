@@ -1,0 +1,8 @@
+model,complexity_measure,value,size_MB,latency_graph_ms,latency_eager_ms,latency_predict_ms,graph_p25_ms,graph_p75_ms,throughput_graph_spectra_per_s,predict_over_graph_ratio,eager_over_graph_ratio,n_timed_repeats
+PLSR,Latent components,40,0.958,0.2057,0.2096,0.23,0.2006,0.2145,4860.3,1.1,1.0,200
+ANN,Trainable parameters,23361,0.299,0.5221,4.0552,91.874,0.5011,0.5541,1915.5,176.0,7.8,200
+SVR,Support vectors,381,0.971,0.5676,0.5826,0.577,0.5518,0.5872,1761.9,1.0,1.0,200
+CNN1D,Trainable parameters,3905,0.1,1.1906,12.9053,92.133,1.1016,1.2339,839.9,77.4,10.8,200
+LSTM,Trainable parameters,19009,0.252,12.6528,959.8167,103.092,12.4986,14.6617,79.0,8.1,75.9,200
+SimpleRNN,Trainable parameters,6337,0.107,14.8571,658.4963,102.311,14.3668,15.4025,67.3,6.9,44.3,200
+BiLSTM,Trainable parameters,37953,0.479,24.1104,1903.1207,114.405,23.3752,41.8733,41.5,4.7,78.9,200
