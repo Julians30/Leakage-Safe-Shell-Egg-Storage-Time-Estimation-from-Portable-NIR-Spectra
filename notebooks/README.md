@@ -38,3 +38,8 @@ pytest
 **Do not regenerate the outer/inner partitions independently.** Use the exact files in `data/frozen_splits/`.
 
 See `docs/ANALYSIS_PROTOCOL.md`, `docs/REPRODUCIBILITY.md`, and `docs/QUICKSTART.md` for the execution contract and data layout.
+
+
+## September 2026 peer-review revision analyses
+
+Additional reviewer-driven analyses are archived under `notebooks/revision_round_2026_09/`. They are explicitly separated from the frozen NB01–NB08 primary workflow. See `notebooks/revision_round_2026_09/README.md` for the execution/provenance map, including NB05B, NB09A/B, NB10–NB16, NB18, and NB19.
