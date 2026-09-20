@@ -47,7 +47,7 @@ full = [
 ]
 
 [project.urls]
-Repository = "https://github.com/Julians30/Using-a-Low-Cost-Portable-Near-Infrared-NIR-and-Deep-Learning-Approaches-Based-on-RNN-and-LSTM-"
+Repository = "https://github.com/Julians30/Leakage-Safe-Shell-Egg-Storage-Time-Estimation-from-Portable-NIR-Spectra"
 
 [project.scripts]
 nir-eggs-verify-splits = "nir_eggs.cli:verify_splits_main"
