@@ -6,7 +6,7 @@ Reproducibility repository for the manuscript:
 
 **Authors:** Julián Coronel-Reyes, Alexander Fernando Haro Sarango, Vanessa Vergara-Lozano, Carlota Delgado-Vera, and Héctor Ramiro Carvajal Romero.
 
-> **Current submission target (1 September 2026):** substantially revised manuscript formally resubmitted as an **Article** to **AgriEngineering (MDPI)** following the Editor-in-Chief's invitation to resubmit after major methodological revision. Previous AgriEngineering manuscript ID: **agriengineering-4541576**. Current AgriEngineering manuscript ID: **agriengineering-4569691**. The primary computational workflow is scientifically frozen; repository documentation may receive non-scientific metadata clarification during editorial processing.
+> **Current review status (20 September 2026):** revised **Article** under peer review at **AgriEngineering (MDPI)**. Previous AgriEngineering manuscript ID: **agriengineering-4541576**. Current AgriEngineering manuscript ID: **agriengineering-4569691**. The NB01–NB08 primary computational workflow remains scientifically frozen; reviewer-driven analyses are archived separately and labelled as post-freeze/complementary where appropriate.
 
 See `docs/AGRIENGINEERING_RESUBMISSION.md` for the journal-specific resubmission note and a concise map of the principal revisions.
 
@@ -91,6 +91,8 @@ After NB01–NB08 and the primary OOF predictions were frozen, compact secondary
 
 These are supporting analyses, not replacements for the frozen primary workflow. Early/Middle/Late are **chronological storage-age bands**, not independently validated freshness, safety, acceptability, or rejection classes.
 
+Later reviewer-round analyses additionally show that the position-preserving `CNN1D_FLAT` reaches MAE 2.469 days, that five shuffled wavelength permutations degrade `CNN1D_FLAT` relative to the original order, and that learning-curve improvements are model-dependent over 6–24 training eggs. Compact supporting tables are public under `results/revision_round_2026_09/`.
+
 Auditable numerical outputs are under `results/complementary/` and are mapped to the manuscript in `docs/MANUSCRIPT_REPOSITORY_MAPPING.md`.
 
 ## September 2026 revision archive
@@ -140,7 +142,7 @@ See `docs/QUICKSTART.md` for the reviewer-focused workflow.
 - `notebooks/src/` — frozen scientific source code/fragments
 - `src/nir_eggs/` — reusable reproducibility utilities
 - `protocol/` — frozen protocol and reproducibility snapshot
-- `results/` — frozen statistical, practical, and complementary outputs
+- `results/` — frozen statistical, practical, complementary, and reviewer-round compact outputs
 - `tables/publication/` — manuscript numerical tables
 - `figures/publication/` — final figure captions and publication mapping
 - `docs/` — protocol, data provenance, quickstart, manuscript-to-repository map, and AgriEngineering resubmission note
