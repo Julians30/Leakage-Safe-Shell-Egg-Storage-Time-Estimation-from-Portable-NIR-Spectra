@@ -93,6 +93,10 @@ These are supporting analyses, not replacements for the frozen primary workflow.
 
 Auditable numerical outputs are under `results/complementary/` and are mapped to the manuscript in `docs/MANUSCRIPT_REPOSITORY_MAPPING.md`.
 
+## September 2026 revision archive
+
+The source notebooks for the reviewer-driven analyses are now public under `notebooks/revision_round_2026_09/`. These analyses are kept separate from the frozen NB01–NB08 primary workflow and are labelled as complementary/post hoc where appropriate. The folder README records the purpose and provenance of each notebook, including the executed NB15 v5 source and the non-numerical v6 figure-label/documentation update.
+
 ## Quick reviewer audit
 
 With Python 3.11:
@@ -132,6 +136,7 @@ See `docs/QUICKSTART.md` for the reviewer-focused workflow.
 
 - `data/frozen_splits/` — exact nested egg-disjoint assignments and hash manifest
 - `notebooks/` — public reviewer-facing NB01–NB08 wrappers
+- `notebooks/revision_round_2026_09/` — reviewer-driven post-freeze analyses (NB05B, NB09A/B, NB10–NB16, NB18, NB19)
 - `notebooks/src/` — frozen scientific source code/fragments
 - `src/nir_eggs/` — reusable reproducibility utilities
 - `protocol/` — frozen protocol and reproducibility snapshot
