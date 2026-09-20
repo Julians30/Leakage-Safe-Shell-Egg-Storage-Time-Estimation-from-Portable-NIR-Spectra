@@ -35,4 +35,4 @@ The row-level Table 4 is diagnostic only: all 30 eggs overlapped between trainin
 
 ## Formatting
 
-The CSV files deliberately retain full numerical precision where available. The Foods/MDPI Word manuscript displays rounded values for readability, while the repository retains audit-level numerical sources.
+The CSV files deliberately retain full numerical precision where available. The AgriEngineering/MDPI Word manuscript displays rounded values for readability, while the repository retains audit-level numerical sources.
