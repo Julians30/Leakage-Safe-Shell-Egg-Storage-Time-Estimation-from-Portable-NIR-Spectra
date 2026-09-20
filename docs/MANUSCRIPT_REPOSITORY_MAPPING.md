@@ -77,3 +77,8 @@ Key final-manuscript mappings include:
 - learning-curve analysis → NB19.
 
 NB15 provenance is documented in the revision-folder README: the reported numerical benchmark was generated with run revision v5, while v6 only adjusts documentation and Figure 6 label placement without changing numerical results.
+
+
+## Compact numerical evidence for reviewer-round analyses
+
+To permit audit without rerunning every expensive model fit, selected final numerical summaries are public under `results/revision_round_2026_09/`. These include the CNN1D pooled benchmark (NB11), clustered uncertainty and pairwise inference (NB12), unified CPU benchmark (NB15), position-aware CNN and multi-permutation ablation summaries (NB16), calibration/phase tables (NB18), and learning-curve summaries (NB19). Large checkpoint files, bootstrap replicate archives, and redundant OOF matrices remain excluded.
