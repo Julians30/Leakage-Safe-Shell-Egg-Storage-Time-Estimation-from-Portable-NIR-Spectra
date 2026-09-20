@@ -58,3 +58,22 @@ The complementary numerical outputs required to audit the manuscript claims are 
 ## Notebook source provenance
 
 `notebooks/notebook_source_manifest.json` separates immutable scientific-source integrity anchors from reviewer-facing wrapper files. Wrapper documentation may improve during review, but the frozen core source and primary numerical results are not redefined.
+
+
+## September 2026 reviewer-round source notebooks
+
+The reviewer-driven source notebooks are archived under `notebooks/revision_round_2026_09/`, separate from the frozen NB01–NB08 primary workflow. The archive includes NB05B, NB09A, NB09B, NB10, NB11, NB12, NB13, NB14, NB15, NB16, NB18, and NB19. There is no NB17 in the final revision sequence.
+
+Key final-manuscript mappings include:
+
+- multi-permutation wavelength shuffling → NB05B;
+- row-level overlap diagnostic → NB09A;
+- wider-grid SVR and reviewer supporting analyses → NB09B;
+- compact CNN1D benchmark → NB11;
+- clustered uncertainty / influence diagnostics → NB12;
+- unified CPU benchmark → NB15;
+- position-aware CNN variants and CNN order ablation → NB16;
+- calibration, phase/day error analysis, and SVR error surface → NB18;
+- learning-curve analysis → NB19.
+
+NB15 provenance is documented in the revision-folder README: the reported numerical benchmark was generated with run revision v5, while v6 only adjusts documentation and Figure 6 label placement without changing numerical results.
