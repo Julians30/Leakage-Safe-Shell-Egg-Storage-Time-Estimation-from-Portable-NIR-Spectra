@@ -100,7 +100,7 @@ Key complementary checks that can be audited directly from the public result fil
 - SVR chronological storage-age phase accuracy is 78.6%, with macro-F1 0.788 and Cohen's κ 0.680;
 - predicted-on-observed slopes for SVR, PLSR and ANN are below 1 with whole-egg bootstrap intervals below 1.
 
-The complementary numerical outputs are public in the repository and are kept separate from the frozen NB01–NB08 core. The author-executed complementary notebooks are retained in the project computational records; they were not included in the submitted Supplementary Material ZIP and should not be treated as submitted supplementary files.
+The complementary numerical outputs are public in the repository and are kept separate from the frozen NB01–NB08 core. The reviewer-driven source notebooks are also archived publicly under `notebooks/revision_round_2026_09/`, while compact numerical evidence for the later analyses is under `results/revision_round_2026_09/`. These revision assets are provenance/reproducibility material and should not be confused with the journal's submitted Supplementary Material file.
 
 ## Reproducibility boundary
 
