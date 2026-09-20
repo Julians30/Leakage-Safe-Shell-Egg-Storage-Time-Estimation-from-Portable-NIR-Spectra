@@ -32,11 +32,13 @@ This checklist distinguishes what is already sufficient for peer-review reproduc
 - [x] Legacy row-level analysis preserved separately for provenance.
 - [x] Manuscript-to-repository evidence map documented.
 - [x] `CITATION.cff` aligned with the manuscript author order and title.
-- [x] README, `CITATION.cff`, manuscript evidence map, and journal-specific resubmission note aligned to the **AgriEngineering** resubmission target (1 September 2026; previous manuscript ID `agriengineering-4541576`).
+- [x] README, `CITATION.cff`, manuscript evidence map, protocol metadata, and journal-specific documentation aligned to the final **AgriEngineering** title and current manuscript ID `agriengineering-4569691`.
+- [x] Reviewer-round source notebooks archived under `notebooks/revision_round_2026_09/`.
+- [x] Compact reviewer-round numerical evidence archived under `results/revision_round_2026_09/`.
 
 ## Still required only before a final archival release
 
-- [ ] Add the new AgriEngineering manuscript ID after SuSy assigns it.
+- [x] Current AgriEngineering manuscript ID recorded: `agriengineering-4569691`.
 - [ ] Select a software-code license explicitly. Do not apply the source dataset's CC BY 4.0 automatically to repository code.
 - [ ] Decide whether to create a tagged release and persistent archival DOI (e.g., Zenodo). This is not required for the current peer-review submission.
 - [ ] Add final journal citation/DOI to `CITATION.cff` after publication metadata exists.
@@ -44,7 +46,7 @@ This checklist distinguishes what is already sufficient for peer-review reproduc
 
 ## Repository-name rule during peer review
 
-The AgriEngineering resubmission manuscript cites the current GitHub URL. **Do not rename this repository during peer review**, because doing so could create avoidable link ambiguity. GitHub normally redirects renamed repositories, but reproducibility documentation should not depend on that behavior while the manuscript is under review.
+The repository was renamed once during the current revision round to match the final manuscript framing. Canonical URL: https://github.com/Julians30/Leakage-Safe-Shell-Egg-Storage-Time-Estimation-from-Portable-NIR-Spectra. **Do not rename it again during the current review cycle.** Keep the manuscript, Supplementary Material, Response to Reviewers, README, and citation metadata synchronized to this final URL.
 
 ## Reviewer-facing acceptance test
 
