@@ -83,3 +83,41 @@ def test_storage_phase_and_attenuation_outputs_match_manuscript_guardrails():
     for model in ["SVR", "PLSR", "ANN"]:
         assert slopes.loc[model, "predicted_on_observed_slope"] < 1.0
         assert slopes.loc[model, "slope_bootstrap95_high"] < 1.0
+
+
+def test_reviewer_round_cnn_and_calibration_evidence():
+    cnn = pd.read_csv(
+        "results/revision_round_2026_09/NB16/Table_NB16_performance_CNN_variants.csv"
+    ).set_index("model")
+    assert np.isclose(cnn.loc["CNN1D_FLAT", "MAE_days"], 2.4688592708376764)
+    assert cnn.loc["CNN1D_FLAT", "MAE_days"] < cnn.loc["CNN1D", "MAE_days"]
+    assert cnn.loc["CNN1D_FLAT", "MAE_days"] < cnn.loc["CNN1D_GAP_POS", "MAE_days"]
+
+    order = pd.read_csv(
+        "results/revision_round_2026_09/NB16/Table_NB16_multi_permutation_summary.csv"
+    ).set_index("model")
+    assert int(order.loc["CNN1D_FLAT", "n_shuffles_worse_than_original"]) == 5
+    assert int(order.loc["CNN1D_FLAT", "n_shuffles"]) == 5
+
+    cal = pd.read_csv(
+        "results/revision_round_2026_09/NB18/Table_NB18_calibration_slopes.csv"
+    ).set_index("model")
+    assert np.isclose(cal.loc["SVR", "slope_obs_on_pred"], 0.9581253710020629)
+    assert np.isclose(cal.loc["PLSR", "slope_obs_on_pred"], 0.9450339586361017)
+    assert np.isclose(cal.loc["ANN", "slope_obs_on_pred"], 0.9516809693596471)
+
+
+def test_reviewer_round_learning_curve_and_compute_evidence():
+    lc = pd.read_csv(
+        "results/revision_round_2026_09/NB19/Table_NB19_relative_improvement.csv"
+    ).set_index("model")
+    assert np.isclose(lc.loc["SVR", "relative_reduction"], 0.13402094314826643)
+    assert np.isclose(lc.loc["ANN", "relative_reduction"], 0.18351736532715673)
+    assert np.isclose(lc.loc["CNN1D", "relative_reduction"], 0.02358876741156682)
+
+    comp = pd.read_csv(
+        "results/revision_round_2026_09/NB15/NB15_unified_computational_benchmark.csv"
+    ).set_index("model")
+    assert comp.loc["PLSR", "latency_graph_ms"] < comp.loc["SVR", "latency_graph_ms"]
+    assert comp.loc["SVR", "latency_graph_ms"] < comp.loc["CNN1D", "latency_graph_ms"]
+    assert comp.loc["CNN1D", "latency_graph_ms"] < comp.loc["LSTM", "latency_graph_ms"]
