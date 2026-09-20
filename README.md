@@ -144,6 +144,6 @@ See `docs/QUICKSTART.md` for the reviewer-focused workflow.
 
 ## Citation and archival status
 
-Use `CITATION.cff` when citing this repository. During the current revision round, the repository name may be updated once to align with the final manuscript title. After that rename, all manuscript, supplementary, reviewer-response, and citation links must be synchronized to the final repository URL.
+Use `CITATION.cff` when citing this repository. The repository was renamed during the current revision round to align with the final manuscript title. The canonical repository URL is https://github.com/Julians30/Leakage-Safe-Shell-Egg-Storage-Time-Estimation-from-Portable-NIR-Spectra. Manuscript, Supplementary Material, Response to Reviewers, and citation metadata should use this final URL.
 
 A tagged archival release/DOI has not yet been created. A software-code license has also not yet been selected by the authors; the CC BY 4.0 statement above applies to the **source dataset** as stated by Mendeley Data and must not be conflated with repository software rights.
