@@ -3,7 +3,7 @@ message: "If you use this repository, please cite the associated manuscript and 
 title: "Leakage-Safe Estimation of Shell-Egg Storage Time from Portable NIR Spectra"
 type: software
 version: 0.1.0
-url: "https://github.com/Julians30/Using-a-Low-Cost-Portable-Near-Infrared-NIR-and-Deep-Learning-Approaches-Based-on-RNN-and-LSTM-"
+url: "https://github.com/Julians30/Leakage-Safe-Shell-Egg-Storage-Time-Estimation-from-Portable-NIR-Spectra"
 authors:
   - family-names: Coronel-Reyes
     given-names: Julián
