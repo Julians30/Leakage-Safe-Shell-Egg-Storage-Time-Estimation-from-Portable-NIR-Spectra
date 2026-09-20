@@ -1,8 +1,8 @@
-# Leakage-Safe NIR Egg Storage-Time Prediction
+# Leakage-Safe Estimation of Shell-Egg Storage Time from Portable NIR Spectra
 
 Reproducibility repository for the manuscript:
 
-**Determination of the Storage Time of Shell Eggs at Ambient Temperature Using a Low-Cost Portable Near-Infrared (NIR) Spectrometer and Deep Learning Approaches Based on Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) Architectures**
+**Leakage-Safe Estimation of Shell-Egg Storage Time from Portable NIR Spectra**
 
 **Authors:** Julián Coronel-Reyes, Alexander Fernando Haro Sarango, Vanessa Vergara-Lozano, Carlota Delgado-Vera, and Héctor Ramiro Carvajal Romero.
 
@@ -144,6 +144,6 @@ See `docs/QUICKSTART.md` for the reviewer-focused workflow.
 
 ## Citation and archival status
 
-Use `CITATION.cff` when citing this repository. The repository URL is cited by the AgriEngineering resubmission manuscript and therefore should **not be renamed during editorial processing or peer review**.
+Use `CITATION.cff` when citing this repository. During the current revision round, the repository name may be updated once to align with the final manuscript title. After that rename, all manuscript, supplementary, reviewer-response, and citation links must be synchronized to the final repository URL.
 
 A tagged archival release/DOI has not yet been created. A software-code license has also not yet been selected by the authors; the CC BY 4.0 statement above applies to the **source dataset** as stated by Mendeley Data and must not be conflated with repository software rights.
