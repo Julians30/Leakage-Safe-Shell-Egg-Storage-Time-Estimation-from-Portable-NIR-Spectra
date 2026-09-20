@@ -5,8 +5,8 @@ This guide is designed for a reviewer or reader who wants to verify the computat
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/Julians30/Using-a-Low-Cost-Portable-Near-Infrared-NIR-and-Deep-Learning-Approaches-Based-on-RNN-and-LSTM-.git
-cd Using-a-Low-Cost-Portable-Near-Infrared-NIR-and-Deep-Learning-Approaches-Based-on-RNN-and-LSTM-
+git clone https://github.com/Julians30/Leakage-Safe-Shell-Egg-Storage-Time-Estimation-from-Portable-NIR-Spectra.git
+cd Leakage-Safe-Shell-Egg-Storage-Time-Estimation-from-Portable-NIR-Spectra
 ```
 
 ## 2. Create a Python 3.11 environment
