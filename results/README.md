@@ -6,7 +6,8 @@ Available subdirectories:
 
 - `statistical_robustness/` — NB06 egg-level inference tables and pairwise results
 - `practical_applicability/` — NB07 operational metrics, clipping sensitivity, model complexity, and CPU latency summaries
-- `complementary/` — post-freeze diagnostic/sensitivity/applied outputs used in the final manuscript without replacing the primary NB01–NB08 estimates
+- `complementary/` — early post-freeze diagnostic/sensitivity/applied outputs used in the final manuscript without replacing the primary NB01–NB08 estimates
+- `revision_round_2026_09/` — compact numerical evidence for later reviewer-driven CNN, clustered-inference, computational-benchmark, calibration, and learning-curve analyses
 
 The repository prioritizes CSV/JSON/TXT outputs that support exact numerical claims. Large temporary checkpoints and redundant packaging files are excluded.
 
@@ -33,3 +34,6 @@ The final manuscript additionally reports analyses performed only after the prim
 - predicted-on-observed slopes quantified attenuation toward the center of the response range.
 
 See `results/complementary/README.md` for exact interpretation boundaries. These analyses are supporting evidence and must not be used to retroactively redefine primary model selection.
+
+
+For the final peer-review revision, the corresponding source notebooks are under `notebooks/revision_round_2026_09/` and the compact audit outputs are under `results/revision_round_2026_09/`.
