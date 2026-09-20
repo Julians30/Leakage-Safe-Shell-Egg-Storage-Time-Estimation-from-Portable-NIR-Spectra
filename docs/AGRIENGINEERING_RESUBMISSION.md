@@ -8,7 +8,7 @@
 
 ## Manuscript title
 
-**Determination of the Storage Time of Shell Eggs at Ambient Temperature Using a Low-Cost Portable Near-Infrared (NIR) Spectrometer and Deep Learning Approaches Based on Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) Architectures**
+**Leakage-Safe Estimation of Shell-Egg Storage Time from Portable NIR Spectra**
 
 This repository is the public reproducibility package linked to the substantially revised manuscript formally resubmitted to **AgriEngineering** after the Editor-in-Chief invited the authors to resubmit a substantially revised version.
 
@@ -70,4 +70,4 @@ The raw CSV is intentionally not duplicated in this repository. The exact analyt
 
 ## Editorial metadata rule
 
-The repository URL is cited in the AgriEngineering submission manuscript. **Do not rename the repository during peer review.** The current AgriEngineering manuscript ID is `agriengineering-4569691`; any future metadata update must remain editorial only, without redefining the frozen scientific source or primary numerical results.
+The repository name may be updated once during the current revision round so that it matches the final manuscript framing. After renaming, the repository URL must be synchronized across the manuscript, Supplementary Material, Response to Reviewers, `README.md`, and `CITATION.cff`. This metadata-only change must not redefine the frozen scientific source or primary numerical results.
