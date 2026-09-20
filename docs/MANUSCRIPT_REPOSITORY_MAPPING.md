@@ -2,11 +2,11 @@
 
 ## Current submission target
 
-This evidence map corresponds to the substantially revised manuscript prepared for resubmission to **AgriEngineering (MDPI)** on 1 September 2026, following the Editor-in-Chief's invitation to resubmit. Previous AgriEngineering manuscript ID: `agriengineering-4541576`. The new SuSy manuscript ID is pending assignment.
+This evidence map corresponds to the substantially revised manuscript under review at **AgriEngineering (MDPI)**. Previous AgriEngineering manuscript ID: `agriengineering-4541576`. Current AgriEngineering manuscript ID: `agriengineering-4569691`.
 
 Manuscript title:
 
-**Determination of the Storage Time of Shell Eggs at Ambient Temperature Using a Low-Cost Portable Near-Infrared (NIR) Spectrometer and Deep Learning Approaches Based on Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) Architectures**
+**Leakage-Safe Estimation of Shell-Egg Storage Time from Portable NIR Spectra**
 
 See `docs/AGRIENGINEERING_RESUBMISSION.md` for the journal-specific revision summary.
 
