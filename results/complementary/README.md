@@ -20,4 +20,4 @@ This directory contains compact numerical outputs for analyses added **after** t
 4. Attenuation slopes quantify compression toward the center of the experimental response range; they do not by themselves identify a physicochemical mechanism.
 5. The study scope remains generalization to unseen eggs from the **same acquisition campaign**; no external transfer across farms, instruments, batches, breeds, seasons, temperatures, or humidity regimes was established.
 
-The source notebooks used to generate these complementary outputs are supplied with the manuscript submission package. The public repository keeps the frozen core workflow and the compact audit outputs needed to verify the reported numerical claims.
+The corresponding reviewer-driven source notebooks are archived publicly under `notebooks/revision_round_2026_09/`. Additional compact numerical outputs from NB11–NB19 are under `results/revision_round_2026_09/`. The frozen NB01–NB08 core remains separate so that post-freeze analyses cannot be mistaken for primary model selection.
