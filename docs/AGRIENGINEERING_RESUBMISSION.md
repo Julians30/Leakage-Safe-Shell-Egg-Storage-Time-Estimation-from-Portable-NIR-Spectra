@@ -49,6 +49,7 @@ The primary result is the **egg-disjoint** estimate. The row-level diagnostic is
 - `data/frozen_splits/` — frozen nested egg-disjoint assignments and manifests
 - `notebooks/` — reviewer-facing NB01–NB08 execution wrappers
 - `notebooks/src/` — frozen scientific source
+- `notebooks/revision_round_2026_09/` — source notebooks for reviewer-driven complementary analyses
 - `protocol/` — frozen protocol and reproducibility snapshot
 - `results/statistical_robustness/` — egg-level inferential outputs
 - `results/practical_applicability/` — computational applicability outputs
@@ -70,4 +71,4 @@ The raw CSV is intentionally not duplicated in this repository. The exact analyt
 
 ## Editorial metadata rule
 
-The repository name may be updated once during the current revision round so that it matches the final manuscript framing. After renaming, the repository URL must be synchronized across the manuscript, Supplementary Material, Response to Reviewers, `README.md`, and `CITATION.cff`. This metadata-only change must not redefine the frozen scientific source or primary numerical results.
+The repository was renamed during the current revision round to align with the final manuscript framing. Canonical URL: https://github.com/Julians30/Leakage-Safe-Shell-Egg-Storage-Time-Estimation-from-Portable-NIR-Spectra. The manuscript, Supplementary Material, Response to Reviewers, README, and citation metadata must use this final URL. This metadata-only change does not redefine the frozen scientific source or primary numerical results.
