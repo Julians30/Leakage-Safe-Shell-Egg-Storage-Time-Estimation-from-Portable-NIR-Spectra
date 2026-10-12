@@ -34,7 +34,7 @@ Mendeley Data Version 2 states that the source dataset is released under **Creat
 
 Although the source-data reuse terms are now documented, the raw spectral CSV is intentionally **not duplicated in this repository**. Readers should obtain the data from the authoritative Mendeley Data record and verify the local analytical copy against the frozen SHA-256 above.
 
-The source-data CC BY 4.0 license must not be conflated with the license for repository software or other derived assets. A repository software license can be selected separately before archival release.
+The source-data CC BY 4.0 license must not be conflated with the software license. The authors' original repository software is available under the MIT License (see `../LICENSE` and `../LICENSE_SCOPE.md`). This does not relicense the Mendeley Data dataset, frozen split data, numerical findings, or other non-software research assets.
 
 ## What is redistributed here
 
