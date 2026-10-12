@@ -12,4 +12,4 @@ The raw CSV is intentionally not duplicated in this repository. Readers should o
 
 `cd5021c555ae6b57f892549c574599cef75edf87f58b3f7f4d246ade9327d15e`
 
-The CC BY 4.0 license applies to the source dataset as stated by Mendeley Data. It does not automatically define the license for repository software or other derived assets; those rights are documented separately.
+The CC BY 4.0 license applies to the source dataset as stated by Mendeley Data. Separately, the authors' original software is released under the MIT License (`LICENSE`). See `LICENSE_SCOPE.md` for exclusions: the original spectra, frozen split assignments, numerical result tables, figures and non-software research materials are not covered by MIT.
