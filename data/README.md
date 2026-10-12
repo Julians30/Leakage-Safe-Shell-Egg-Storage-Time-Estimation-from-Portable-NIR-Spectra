@@ -24,7 +24,7 @@ The hash defines the exact computational input used by the frozen pipeline. A lo
 
 ## Source-data licensing
 
-Mendeley Data Version 2 states a **Creative Commons Attribution 4.0 International (CC BY 4.0)** license for the source dataset. This source-data license is distinct from any software license selected for repository code or from licensing of derived documentation.
+Mendeley Data Version 2 states a **Creative Commons Attribution 4.0 International (CC BY 4.0)** license for the source dataset. The authors' own repository software is separately released under MIT (`../LICENSE`); this does not change the dataset's CC BY 4.0 terms. See `../LICENSE_SCOPE.md` for the distinction between code and non-software research assets.
 
 See [`docs/DATA_PROVENANCE.md`](../docs/DATA_PROVENANCE.md) and [`docs/SUBMISSION_DATA_LICENSE_NOTE.md`](../docs/SUBMISSION_DATA_LICENSE_NOTE.md).
 
