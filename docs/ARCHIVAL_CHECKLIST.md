@@ -39,7 +39,7 @@ This checklist distinguishes what is already sufficient for peer-review reproduc
 ## Still required only before a final archival release
 
 - [x] Current AgriEngineering manuscript ID recorded: `agriengineering-4569691`.
-- [ ] Select a software-code license explicitly. Do not apply the source dataset's CC BY 4.0 automatically to repository code.
+- [x] Software-code license selected and published: **MIT License** in `LICENSE`, with separate research-data and non-software asset rights documented in `LICENSE_SCOPE.md`. The source dataset remains under Mendeley Data's CC BY 4.0 terms.
 - [ ] Decide whether to create a tagged release and persistent archival DOI (e.g., Zenodo). This is not required for the current peer-review submission.
 - [ ] Add final journal citation/DOI to `CITATION.cff` after publication metadata exists.
 - [ ] If editorially permitted after acceptance, update persistent archival links in the final paper; otherwise preserve the already-cited GitHub URL.
