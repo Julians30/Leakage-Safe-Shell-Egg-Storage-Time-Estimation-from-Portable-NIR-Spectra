@@ -1,5 +1,7 @@
 # Leakage-Safe Estimation of Shell-Egg Storage Time from Portable NIR Spectra
 
+[![Reproducibility checks](https://github.com/Julians30/Leakage-Safe-Shell-Egg-Storage-Time-Estimation-from-Portable-NIR-Spectra/actions/workflows/reproducibility-checks.yml/badge.svg?branch=main)](https://github.com/Julians30/Leakage-Safe-Shell-Egg-Storage-Time-Estimation-from-Portable-NIR-Spectra/actions/workflows/reproducibility-checks.yml) [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](LICENSE) ![Python](https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white)
+
 Reproducibility repository for the manuscript:
 
 **Leakage-Safe Estimation of Shell-Egg Storage Time from Portable NIR Spectra**
