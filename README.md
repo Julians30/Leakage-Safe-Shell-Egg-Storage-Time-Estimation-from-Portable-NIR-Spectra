@@ -6,7 +6,7 @@ Reproducibility repository for the manuscript:
 
 **Leakage-Safe Estimation of Shell-Egg Storage Time from Portable NIR Spectra**
 
-**Authors:** Julián Coronel-Reyes, Alexander Fernando Haro Sarango, Vanessa Vergara-Lozano, Carlota Delgado-Vera, and Héctor Ramiro Carvajal Romero.
+**Authors:** Julián Coronel-Reyes, Alexander Fernando Haro Sarango, Vanessa Vergara-Lozano, and Carlota Delgado-Vera.
 
 > **Current editorial status (24 October 2026):** **accepted** for publication in **AgriEngineering (MDPI)**; the article is in production. Manuscript ID: **agriengineering-4569691** (previous ID: **agriengineering-4541576**). The journal DOI will be added once assigned. The NB01–NB08 primary computational workflow remains scientifically frozen; reviewer-driven analyses are archived separately and labelled as post-freeze/complementary where appropriate.
 
