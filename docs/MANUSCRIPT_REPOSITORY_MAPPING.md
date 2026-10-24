@@ -1,8 +1,8 @@
 # Manuscript–Repository Evidence Map
 
-## Current submission target
+## Journal and editorial status
 
-This evidence map corresponds to the substantially revised manuscript under review at **AgriEngineering (MDPI)**. Previous AgriEngineering manuscript ID: `agriengineering-4541576`. Current AgriEngineering manuscript ID: `agriengineering-4569691`.
+This evidence map corresponds to the substantially revised manuscript **accepted for publication in AgriEngineering (MDPI)** (status as of 24 October 2026). Previous AgriEngineering manuscript ID: `agriengineering-4541576`. Current AgriEngineering manuscript ID: `agriengineering-4569691`.
 
 Manuscript title:
 

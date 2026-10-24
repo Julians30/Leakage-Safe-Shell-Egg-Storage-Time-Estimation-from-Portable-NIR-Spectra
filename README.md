@@ -1,6 +1,6 @@
 # Leakage-Safe Estimation of Shell-Egg Storage Time from Portable NIR Spectra
 
-[![Reproducibility checks](https://github.com/Julians30/Leakage-Safe-Shell-Egg-Storage-Time-Estimation-from-Portable-NIR-Spectra/actions/workflows/reproducibility-checks.yml/badge.svg?branch=main)](https://github.com/Julians30/Leakage-Safe-Shell-Egg-Storage-Time-Estimation-from-Portable-NIR-Spectra/actions/workflows/reproducibility-checks.yml) [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](LICENSE) ![Python](https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white)
+[![Reproducibility checks](https://github.com/Julians30/Leakage-Safe-Shell-Egg-Storage-Time-Estimation-from-Portable-NIR-Spectra/actions/workflows/reproducibility-checks.yml/badge.svg?branch=main)](https://github.com/Julians30/Leakage-Safe-Shell-Egg-Storage-Time-Estimation-from-Portable-NIR-Spectra/actions/workflows/reproducibility-checks.yml) [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](LICENSE) ![Python](https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white) ![Status](https://img.shields.io/badge/Status-Accepted%20%C2%B7%20AgriEngineering-2F855A)
 
 Reproducibility repository for the manuscript:
 
@@ -8,7 +8,7 @@ Reproducibility repository for the manuscript:
 
 **Authors:** Julián Coronel-Reyes, Alexander Fernando Haro Sarango, Vanessa Vergara-Lozano, Carlota Delgado-Vera, and Héctor Ramiro Carvajal Romero.
 
-> **Current review status (20 September 2026):** revised **Article** under peer review at **AgriEngineering (MDPI)**. Previous AgriEngineering manuscript ID: **agriengineering-4541576**. Current AgriEngineering manuscript ID: **agriengineering-4569691**. The NB01–NB08 primary computational workflow remains scientifically frozen; reviewer-driven analyses are archived separately and labelled as post-freeze/complementary where appropriate.
+> **Current editorial status (24 October 2026):** **accepted** for publication in **AgriEngineering (MDPI)**; the article is in production. Manuscript ID: **agriengineering-4569691** (previous ID: **agriengineering-4541576**). The journal DOI will be added once assigned. The NB01–NB08 primary computational workflow remains scientifically frozen; reviewer-driven analyses are archived separately and labelled as post-freeze/complementary where appropriate.
 
 See `docs/AGRIENGINEERING_RESUBMISSION.md` for the journal-specific resubmission note and a concise map of the principal revisions.
 
